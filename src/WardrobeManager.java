@@ -41,7 +41,7 @@ public class WardrobeManager {
   static String[] CONDITION_OPTIONS = {"New", "Excellent", "Good", "Distressed", "Worn"};
   static String[] STATUS_OPTIONS = {"Active", "Storage", "At Cleaner", "Needs Repair"};
 
-  static ArrayList<ClothingItem> sessionList = new ArrayList<>();
+  public static ArrayList<ClothingItem> sessionList = new ArrayList<>();
 
   /*
     Constants for frame setup.
